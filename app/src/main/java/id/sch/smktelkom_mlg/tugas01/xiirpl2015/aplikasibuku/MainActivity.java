@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         String input = etinput.getText().toString();
 
         if(input.isEmpty()){
-            etinput.setError("Belum diisi");
+            etinput.setError("Komentar Belum diisi");
         }
         else {
             etinput.setError(null);
