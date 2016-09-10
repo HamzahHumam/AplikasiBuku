@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
     {
         String hasil = "Tidak ada Masukan";
         if (rg.getCheckedRadioButtonId()!=-1){
-            RadioButton rb = (RadioButton)
+            RadioButton rB = (RadioButton)
                     findViewById(rg.getCheckedRadioButtonId());
-            hasil = rb.getText().toString();
+            hasil = rB.getText().toString();
         }
         if (hasil == null){
             tvHasil.setText("Belum memilih ");
